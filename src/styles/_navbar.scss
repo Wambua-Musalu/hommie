@@ -1,0 +1,71 @@
+.navbar {
+    margin: .5rem;
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo{
+      display: flex;
+      img{
+        width: 50px;
+        height: 50px;
+        transform: rotate(45deg);
+      }
+    }
+
+    .main-menu{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .nav-center{
+            span{
+                padding:  0 2.25rem;
+            }
+        }
+
+        .auth-logic{
+            padding: .5rem;
+            display: flex;
+            align-items: center;
+
+            .user{
+              p{
+                width: 120px;
+              }
+            }
+    
+            .auth-btn{
+                padding: 0 2rem;
+                width: 5rem;
+    
+                button{
+                  width: 100%;
+                    padding: .225rem .525rem;
+                    background-color:  $buttonColor;
+                }
+            }
+        }
+    }
+
+    .toogle-menu {
+
+      a {
+        cursor: pointer;
+        span {
+          display: block;
+          width: 2.125em;
+          height: 2px;
+          background-color: rgb(23, 32, 51);
+          transition: all 300ms ease-in-out;
+          transform-origin: 9px 2px;
+        }
+        :not(:last-child) {
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+$buttonColor :  rgb(36, 240, 255);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hide-for-desktop {
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.hide-for-mobile {
+  @media screen and (max-width: 769px) {
+    display: none;
+  }
+}
+

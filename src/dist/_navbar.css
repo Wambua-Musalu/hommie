@@ -1,0 +1,53 @@
+.navbar {
+  margin: 0.5rem;
+}
+.navbar .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .wrapper .logo {
+  display: flex;
+}
+.navbar .wrapper .logo img {
+  width: 50px;
+  height: 50px;
+  transform: rotate(45deg);
+}
+.navbar .wrapper .main-menu {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .wrapper .main-menu .nav-center span {
+  padding: 0 2.25rem;
+}
+.navbar .wrapper .main-menu .auth-logic {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+.navbar .wrapper .main-menu .auth-logic .user p {
+  width: 120px;
+}
+.navbar .wrapper .main-menu .auth-logic .auth-btn {
+  padding: 0 2rem;
+}
+.navbar .wrapper .main-menu .auth-logic .auth-btn > button {
+  padding: 0.225rem 0.525rem;
+}
+.navbar .wrapper .toogle-menu a {
+  cursor: pointer;
+}
+.navbar .wrapper .toogle-menu a span {
+  display: block;
+  width: 2.125em;
+  height: 2px;
+  background-color: #172033;
+  transition: all 300ms ease-in-out;
+  transform-origin: 9px 2px;
+}
+.navbar .wrapper .toogle-menu a :not(:last-child) {
+  margin-bottom: 5px;
+}
